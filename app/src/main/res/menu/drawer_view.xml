@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homedrawer"
+            android:icon="@drawable/homee"
+            android:title="Home"
+            android:checked="true"/>
+        <item
+            android:id="@+id/profil"
+            android:icon="@drawable/proff"
+            android:title="profildrawer" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/map"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/chorlya"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Sub items">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/flech"
+                    android:title="Sub item 1" />
+                <item
+                    android:icon="@drawable/dep"
+                    android:title="Sub item 2" />
+            </group>
+        </menu>
+    </item>
+</menu>

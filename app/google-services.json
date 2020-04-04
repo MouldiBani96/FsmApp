@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "239705262762",
+    "firebase_url": "https://fsm-app-f1956.firebaseio.com",
+    "project_id": "fsm-app-f1956",
+    "storage_bucket": "fsm-app-f1956.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239705262762:android:4ae9d3928e9333d5",
+        "android_client_info": {
+          "package_name": "droidmentor.tabwithviewpager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239705262762-7i1pg79lhohjjspl33bv1vaiotjq6brk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHv3Yo1cFCwuaTfM7ztnBbVbKcPdcYs8w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/login_activity"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="droidmentor.tabwithviewpager.LoginActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical">
+
+    <ImageView
+        android:background="@drawable/background_gradient"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>
+
+<LinearLayout
+
+    android:id="@+id/layoutInput"
+    android:layout_marginRight="40dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="200dp"
+    android:layout_centerHorizontal="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/shadow">
+    <EditText
+        android:id="@+id/register_number"
+        android:drawablePadding="20dp"
+
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/registration_number"
+        android:drawableRight="@drawable/num"
+        android:drawableEnd="@drawable/num" />
+
+    <EditText
+        android:id="@+id/password"
+        android:drawablePadding="20dp"
+        android:drawableRight="@drawable/chorlya"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:drawableEnd="@drawable/chorlya" />
+
+    <CheckBox
+        android:id="@+id/rememberme"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remember_me"
+        android:textColor="#4d4d4d"
+        />
+    <Button
+        android:id="@+id/signinbtn"
+        android:background="@drawable/btn_background"
+
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignIn"/>
+
+</LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="140dp"
+
+    android:text="Sign In"
+    android:textColor="#fff"
+    android:textSize="30sp" />
+
+<ImageView
+    android:layout_marginTop="20dp"
+    android:src="@drawable/loginlogo"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@id/layoutInput"
+    android:layout_centerHorizontal="true"
+    android:padding="10dp">
+
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/fblogo"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:src="@drawable/facebooklogo"
+        app:cb_color="#1eb8fa"
+        app:cb_pressedRingWidth="8dip"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="40dp"
+        />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/planet"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:src="@drawable/planetlogo"
+        app:cb_color="#1eb8fa"
+        app:cb_pressedRingWidth="8dip"
+        android:layout_marginTop="5dp"
+        />
+
+
+</LinearLayout>
+
+</RelativeLayout>
